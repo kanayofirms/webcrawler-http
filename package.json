@@ -1,0 +1,23 @@
+{
+  "name": "webcrawler-http",
+  "version": "1.0.0",
+  "description": "Build an HTTP webcrawler",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanayofirms/webcrawler-http.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kanayofirms/webcrawler-http/issues"
+  },
+  "homepage": "https://github.com/kanayofirms/webcrawler-http#readme",
+  "devDependencies": {
+    "jest": "^29.6.4"
+  }
+}
