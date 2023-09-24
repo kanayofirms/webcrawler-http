@@ -5,6 +5,7 @@ function getURLsFromHTML(htmlBody, baseURL) {
     const dom = new JSDOM(htmlBody)
     const linkElements = dom.window.document.querySelectorAll('a')
     for (const linkElement of linkElements) {
+        
         urls.push(linkElement.href)
     }
     return urls
